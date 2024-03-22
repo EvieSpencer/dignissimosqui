@@ -1,0 +1,52 @@
+{
+  "name": "dignissimosqui",
+  "version": "1.0.0",
+  "description": "CSP channels with ES6 generators, inspired by Clojurescript's core.async and Go",
+  "keywords": [
+    "csp",
+    "odit",
+    "est",
+    "channel",
+    "commodi",
+    "quia",
+    "clojurescript",
+    "core.async",
+    "delectus",
+    "inventore",
+    "a",
+    "et"
+  ],
+  "author": "JohannaChristiansen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvieSpencer/dignissimosqui.git"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/ubolonton/js-csp/raw/master/LICENSE"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^6.0.2",
+    "chai": "~1.9.0",
+    "gulp": "^3.8.10",
+    "gulp-mocha": "^1.1.1",
+    "mocha": "~1.17.1",
+    "transducers.js": "^0.3.0",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=0.11.6"
+  },
+  "scripts": {
+    "test": "node --harmony ./node_modules/.bin/gulp test",
+    "bundle": "node ./node_modules/.bin/gulp bundle"
+  },
+  "main": "./src/csp.js",
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ]
+}
